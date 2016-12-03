@@ -1,0 +1,41 @@
+body {
+  background: radial-gradient(white, ghostwhite);
+  font-family: 'Open Sans', 'Helvetica', arial, sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.icon-container {
+  list-style: none;
+}
+
+.icon {
+  display: inline-block;
+  padding: 1rem;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 400px;
+}
+
+.last, .result {
+  margin: 0;
+}
+
+.score {
+  margin-top: 4rem;
+  margin-bottom: 0;
+}
